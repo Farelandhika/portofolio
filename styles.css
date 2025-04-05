@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(121, 113, 237);
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+ background-image: url("image/background.png");
+}
+nav {
+justify-content: flex;
+
+}
+header {
+ background-color: rgb(97, 48, 196);
+  color: white;
+  padding: 1em0;
+  text-align:center;
+}
+nav ul {
+display: flex;
+justify-content: flex-end;
+list-style: none;
+padding: 0;
+margin: 0;
+position: none;
+border-color: blue;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color:rgb(254, 253, 255);
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+  background-color: rgba(224, 220, 240, 0);
+}
+footer {
+background: #333;
+color:#fff;
+padding: 10px 0;
+margin-top: 20px;
+}
+.project {
+background: rgba(254, 251, 255, 0.667);
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+width: 15;
+}
+div section {
+background-color: rgb(146, 100, 253);
+padding: 1px;
+height: 1;
+color: #000000;
+font-style:italic;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-display:initial;
+font-size: 0,1em;
+
+}
+.header-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: #222;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: flex;
+}
+
+.header-marquee h1 {
+  display: inline-block;
+  position: relative;
+  animation: stopDiTengah 5s ease-out forwards;
+  font-size: 2em;
+  padding-left: 100%; /* mulai dari luar kanan */
+}
+
+@keyframes stopDiTengah {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%); /* berhenti di tengah */
+  }
+}
